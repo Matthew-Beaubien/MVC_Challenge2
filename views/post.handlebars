@@ -1,0 +1,39 @@
+<div class='post-card'>
+  <div class='post-header'>
+    <h2 class='post-title'>{{post.title}}
+      <div class='post-info'>
+        <span class='post-author'>Created by {{post.user.username}}</span>
+        <span class='post-date'>on {{format_date post.date_created}}</span>
+      </div>
+    </h2>
+  </div>
+
+  <div class='post-main'>{{post.content}}</div>
+</div>
+
+<div class='comment-form-container mt-4'>
+  <form id='comment-form'>
+    <div class='form-group'>
+      <input placeholder='Comment...' class='comment-input' />
+      <button id='comment-button' data-post-id='{{post.id}}'>Comment</button>
+      <input type='hidden' id='user-id' data-user-id='{{user_id}}' />
+    </div>
+  </form>
+</div>
+
+<section class='comment-list mt-4'>
+  {{#each post.comments}}
+    <div class="comment-container">
+    <div class='row mb-2 comment'>
+      <div class='col-md-8'>
+        <span class='comment-text'>{{this.commentBody}}</span>
+      </div>
+      <div class="col-md-8 mt-1 ml-5">
+        <span class='comment-author'>- Comment by {{this.username}}</span>
+      </div>
+    </div>
+    </div>
+  {{/each}}
+</section>
+
+<script src='public/js/comment.js'></script>

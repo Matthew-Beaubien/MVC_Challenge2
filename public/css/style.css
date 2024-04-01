@@ -1,0 +1,83 @@
+/* Main */
+.header {
+    background-color: bisque;
+    padding: 5px;
+}
+
+.nav {
+    margin: 10px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    flex-direction: row;
+    
+}
+
+nav li {
+    color: black;
+    background-color: lightgreen;
+    font-size: 16pt;
+    padding: 5px;
+    border-radius: 15%;
+    border-style: solid;
+}
+nav a {
+    text-decoration: none;
+}
+
+.main-title {
+    color: black;
+    padding-left: 47%;
+}
+
+.main-title a {
+    text-decoration: none;
+}
+
+.post-card {
+    display: flex;
+    justify-content: center;
+    border-style: solid;
+}
+
+.post-title {
+    color: black;
+    padding: 20px;
+
+}
+
+.post-title a {
+    text-decoration: none;
+
+}
+
+.post-main {
+    display: flex;
+    flex-direction: column;
+    padding-top: 32px;
+}
+
+.comment-text {
+    color: black;
+}
+
+.comment-main {
+    color: black;
+}
+
+.info {
+    font-size: 12pt;
+    font-style: italic;
+}
+
+button {
+    border-radius: 25%;
+    background-color: rgb(131, 226, 43);
+
+}
+
+/* Main */
+

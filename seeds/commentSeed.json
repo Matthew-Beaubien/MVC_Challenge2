@@ -1,0 +1,20 @@
+[
+    {
+        "commentBody": "Aloha",
+        "username": "Amy",
+        "post_id": "1",
+        "user_id": "1"
+    },
+    {
+        "commentBody": "Bonjour",
+        "username": "Not Amy",
+        "post_id": "2",
+        "user_id": "2"
+    },
+    {
+        "commentBody": "Hello",
+        "username": "Jim",
+        "post_id": "3",
+        "user_id": "3"
+    }
+]

@@ -1,0 +1,17 @@
+[
+    {
+      "title": "MVC Basics in Web Dev",
+      "content": "Explore Model-View-Controller (MVC) in web development, its roles, benefits, and impact on code organization.",
+      "user_id": "1"
+    },
+    {
+      "title": "Implementing MVC in JavaScript Frameworks",
+      "content": "Learn how MVC is implemented in Angular, React, and Vue.js, with code examples for clarity.",
+      "user_id": "2"
+    },
+    {
+      "title": "MVC vs. MVVM: A Comparative Analysis",
+      "content": " Discover differences between MVC and MVVM, helping you choose the right architecture for your projects.",
+      "user_id": "3"
+    }
+]
